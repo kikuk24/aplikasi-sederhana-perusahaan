@@ -1,0 +1,7 @@
+CREATE TABLE karyawan (
+    id INT(11) PRIMARY KEY AUTO_INCREMENT,
+    nama VARCHAR(255) NOT NULL,
+    jabatan VARCHAR(100) NOT NULL,
+    gaji INT(11) NOT NULL,
+    tanggal_masuk DATE NOT NULL
+);
